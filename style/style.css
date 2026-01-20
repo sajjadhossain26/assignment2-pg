@@ -204,7 +204,10 @@ button:hover {
 .why-chose .card-wrap .card h3 {
   margin: 10px 0px;
 }
+.host .icon-wrap {
 
+    gap: 10px;
+}
 .featured {
   background-color: var(--bg-pirmary);
   padding: 60px 0px;
