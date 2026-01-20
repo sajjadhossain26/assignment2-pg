@@ -340,6 +340,14 @@ footer .footer-wrap p {
   .button {
     display: none;
   }
+  .header-wrap .logo h1 {
+    margin-left: 10px!important;
+}
+.about .container .inner-content p {
+    color: #ddd;
+    max-width: 87%;
+    margin: 20px auto;
+}
   .humberger {
     display: block;
   }
@@ -377,12 +385,15 @@ footer .footer-wrap p {
     margin: 0px 20px;
     gap: 0px;
   }
-  .host .icon-wrap {
+
+ .host .icon-wrap {
     display: flex;
     align-items: center;
     margin-top: 10px;
+    gap: 10px;
+    text-align: center;
     justify-content: center;
-  }
+}
   .host .inner-wrap {
     display: flex;
     flex-direction: column;
@@ -400,10 +411,16 @@ footer .footer-wrap p {
   footer {
     text-align: center;
     margin: auto;
+    padding: 30px 0px!important;
   }
+  footer .logo h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #fff;
+}
   footer .social ul {
     display: flex;
-    padding: 0px 40px;
+    padding: 0px 60px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
